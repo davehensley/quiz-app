@@ -1,5 +1,4 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { QuizModule } from './app/quiz.module';
 
-import { AppModule } from './app/app.module';
-
-platformBrowserDynamic().bootstrapModule(AppModule);
+platformBrowserDynamic().bootstrapModule(QuizModule);

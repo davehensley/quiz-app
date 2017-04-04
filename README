@@ -1,0 +1,22 @@
+This is a simple Angular 2 app which allows you to easily add a fun quiz to any
+web site. The quiz questions are easily customizable (they are stored in the
+src/data/questions.json file).
+
+To install it, first install the Node.js package manager (npm). Then, cd to the
+directory that contains this README file, and run the following command:
+
+$ npm install
+
+This will take a few minutes, so you may want to go grab a beverage. When it's
+finished, type this:
+
+$ npm start
+
+This will transpile the app, and then start a little web server on port 3000 of
+the machine so you can play around with it. When you see "Compilation complete.
+Watching for file changes." in the output, the quiz should be reachable in your
+web browser by going to:
+
+http://<your-ip-or-localhost>:3000/
+
+Have fun! :~)

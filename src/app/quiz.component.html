@@ -1,0 +1,14 @@
+<div class="slider">
+    <ul class="slides">
+        <li class="start-slide">
+            Would you like to take a fun quiz? If so, click the button below.
+            <button class="start">Start the Quiz!</button>
+        </li>
+
+        <questions [questionsCount]="questions" [answersCount]="answers" (onAnswerChange)="updateScore($event)"></questions>
+
+        <li class="end-slide">
+            All done! You answered {{score}} out of {{questions}} questions correctly.
+        </li>
+    </ul>
+</div>

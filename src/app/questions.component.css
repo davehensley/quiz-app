@@ -1,0 +1,25 @@
+.answers {
+    list-style-type: none;
+}
+
+.continue {
+    bottom: 20px;
+    font-size: 1em;
+    left: 350px;
+    position: absolute;
+}
+
+.question {
+    padding: 20px;
+}
+
+.question-slide {
+    float: left;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 1.5em;
+    height: 300px;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    width: 500px;
+}
